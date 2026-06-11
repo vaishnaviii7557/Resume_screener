@@ -1,5 +1,5 @@
 import streamlit as st
-from parser import extract_text
+from pdf_parser import extract_text
 from embedder import get_embedding
 from scorer import rank_resumes
 
