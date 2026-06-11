@@ -5,6 +5,9 @@ An AI-powered resume screening tool that ranks resumes based on how well they ma
 ## Live Demo
 [Try it here](https://resumescreener-2brzqdwd7dsbrxhhot7ghw.streamlit.app/)
 
+## App Preview
+![App Screenshot](screenshot.png)
+
 ## What it does
 - Upload a Job Description (PDF)
 - Upload multiple Resumes (PDFs)
