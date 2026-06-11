@@ -2,6 +2,9 @@
 
 An AI-powered resume screening tool that ranks resumes based on how well they match a job description.
 
+## Live Demo
+[Try it here](https://resumescreener-2brzqdwd7dsbrxhhot7ghw.streamlit.app/)
+
 ## What it does
 - Upload a Job Description (PDF)
 - Upload multiple Resumes (PDFs)
@@ -16,9 +19,6 @@ Converts text from PDFs into numerical embeddings using a sentence-transformer m
 - sentence-transformers — text embeddings
 - scikit-learn — cosine similarity
 - Streamlit — web UI
-
-## Live Demo
-[Coming soon on Streamlit Cloud]
 
 ## How to run locally
 1. Clone the repo
