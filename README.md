@@ -1,7 +1,6 @@
-# Resume Screener 📄
+# Resume Screener
 
-An AI-powered resume screening tool that ranks resumes 
-based on how well they match a job description.
+An AI-powered resume screening tool that ranks resumes based on how well they match a job description.
 
 ## What it does
 - Upload a Job Description (PDF)
@@ -9,9 +8,7 @@ based on how well they match a job description.
 - Get instant ranked results with match scores
 
 ## How it works
-Converts text from PDFs into numerical embeddings using
-a sentence-transformer model, then compares them using 
-cosine similarity to rank resumes by relevance.
+Converts text from PDFs into numerical embeddings using a sentence-transformer model, then compares them using cosine similarity to rank resumes by relevance.
 
 ## Tech Stack
 - Python
@@ -20,8 +17,10 @@ cosine similarity to rank resumes by relevance.
 - scikit-learn — cosine similarity
 - Streamlit — web UI
 
-## How to run locally
+## Live Demo
+[Coming soon on Streamlit Cloud]
 
+## How to run locally
 1. Clone the repo
 2. Create virtual environment
    python -m venv venv
@@ -33,6 +32,6 @@ cosine similarity to rank resumes by relevance.
 
 ## Project Structure
 - app.py — Streamlit UI
-- parser.py — PDF text extraction
+- pdf_parser.py — PDF text extraction
 - embedder.py — generates embeddings
 - scorer.py — ranks resumes by similarity score
